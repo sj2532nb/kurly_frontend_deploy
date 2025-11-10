@@ -1,0 +1,26 @@
+{
+    "slide":[
+        {"no":17,"src":"./images/intro/intro_main_slide23.jpg"},
+        {"no":1, "src":"./images/intro/intro_main_slide01.jpg"},
+        {"no":2, "src":"./images/intro/intro_main_slide02.jpg"},
+        {"no":3, "src":"./images/intro/intro_main_slide03.jpg"},
+        {"no":4, "src":"./images/intro/intro_main_slide04.jpg"},
+        {"no":5, "src":"./images/intro/intro_main_slide05.jpg"},
+        {"no":6, "src":"./images/intro/intro_main_slide06.jpg"},
+        {"no":7, "src":"./images/intro/intro_main_slide07.jpg"},
+        {"no":8, "src":"./images/intro/intro_main_slide08.jpg"},
+        {"no":9, "src":"./images/intro/intro_main_slide09.jpg"},
+        {"no":10,"src":"./images/intro/intro_main_slide10.jpg"},
+        {"no":11,"src":"./images/intro/intro_main_slide11.jpg"},
+        {"no":12,"src":"./images/intro/intro_main_slide12.jpg"},
+        {"no":13,"src":"./images/intro/intro_main_slide13.jpg"},
+        {"no":14,"src":"./images/intro/intro_main_slide14.jpg"},
+        {"no":15,"src":"./images/intro/intro_main_slide15.jpg"},
+        {"no":16,"src":"./images/intro/intro_main_slide16.jpg"},
+        {"no":17,"src":"./images/intro/intro_main_slide17.jpg"},
+        {"no":1, "src":"./images/intro/intro_main_slide01.jpg"}
+    ],
+    "이미지":[
+
+    ]
+}

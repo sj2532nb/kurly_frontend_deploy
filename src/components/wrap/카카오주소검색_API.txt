@@ -1,0 +1,29 @@
+카카오주소검색 API
+
+1. package 설치   
+    npm  i  react-doum-postcode
+
+2. 최상위 컴포넌트 아래 자식컴포넌트로 생성
+
+3. 컴포넌트 상단에서 
+   import Postcode  from 'react-daum-postcode';
+
+4. 주소검색 입력폼 만들고
+    zIndex:1 설정 
+
+5. 주소검색 폼 위에 Postcode 보이게한다.
+    zIndex:2 설정 
+    position:absolute;
+
+6. 검색이 완료되면 자동으로 닫힌다.
+
+
+7. 검색된 주소를 폼에 바인딩한다.
+
+
+8. 저장버튼 클릭시 최상위 메서드 호출 실행
+주소 모두 변경
+[장바구니, 헤더 배송지(등록지), 회원가입폼 주소검색]
+
+
+

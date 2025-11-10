@@ -1,0 +1,37 @@
+ <span>{item.번호}</span>
+                                                    {/* 
+                                                        서치파람스 searchParams() 활용 
+                                                        1. 파라미터를 링크 태그에 직접 설정한다. 키=키값&키=키값
+                                                        2. 선언
+                                                           import {useSearchParams} from 'react-router-dom';
+                                                        3. 변수 = 훅 사용
+                                                            const [param, setParam] = useSearchParams();
+                                                            const 번호 = param.get('번호'); // 보내온 키를 이용 키값을 가져온다.
+                                                            const 제목 = param.get('제목'); // 보내온 키를 이용 키값을 가져온다.
+                                                            const 내용 = param.get('내용'); // 보내온 키를 이용 키값을 가져온다.
+                                                            const 작성자 = param.get('작성자'); // 보내온 키를 이용 키값을 가져온다.
+                                                            const 작성일 = param.get('작성일'); // 보내온 키를 이용 키값을 가져온다.
+                                                        
+                                                    */}
+                                                    <Link to={`/notice_view?번호=${item.번호}&제목=${item.제목}&내용=${item.내용}&작성자=${item.작성자}&작성일=${item.작성일}`}>  {/* 쿼리스트링 => 파라미터 => 글보기 페이지 */}
+                                                        <span>{item.제목}</span>
+                                                    </Link>
+
+                                                    {/* 
+                                                        useNavigate()  => useLocation()
+                                                        1. 선언
+                                                        import {Link, useNavigate} from 'react-router-dom';
+                                                        2. 파라미터값을 객체 state 설정
+                                                        navigate('/idSearchResult', {state: {번호: item.번호, 제목: item.제목, 내용: item.내용, 작성자: item.작성자, 작성일: item.작성일}}); 
+
+                                                        3. 훅 선언하고 변수 사용
+                                                        useLocation() 글목록을 클릭해서 버튼이벤트 작성후 리터문 위에서 코딩하는경우
+                                                        const location = useLocation(); 훅 Hook
+                                                        4. 변수 속성 이용 바인딩    
+                                                        location.state.아이디  바인딩 Binding
+                                                      
+                                                    */}
+                                                    <span>{item.작성자}</span>
+                                                    <span>{item.작성일}</span>
+                                                    
+                                            </dd>
