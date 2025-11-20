@@ -50,7 +50,7 @@
   color: #5f0080;
   padding: 0;
   margin: 0;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   cursor: pointer;
 }
 #wrap #header .container .gap .content .row1 .container > ul > li i {
@@ -109,6 +109,9 @@
 }
 #wrap #header .container .gap .content .row2 .container .left h1 span:last-child a {
   color: #b5b5b5;
+}
+#wrap #header .container .gap .content .row2 .container .left h1 span button {
+  background: transparent; border: none; color: #b5b5b5; font-size: 18px; font-weight: 600; margin: 0 0 0 -6px; cursor: pointer;
 }
 #wrap #header .container .gap .content .row2 .container .center {
   width: 400px;

@@ -63,6 +63,7 @@
   font-size: 14px;
   color: #333;
   font-weight: 500;
+  cursor: pointer;
 }
 #wrap #footer .row.row1 .container .content .left ul li:nth-child(3) span, #wrap #footer .row.row1 .container .content .left ul li:nth-child(4) span, #wrap #footer .row.row1 .container .content .left ul li:nth-child(5) span {
   font-size: 14px;
