@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kurly_frontend_deploy/static/css/main.d90fd03c.css",
-    "main.js": "/kurly_frontend_deploy/static/js/main.c31d46eb.js",
+    "main.js": "/kurly_frontend_deploy/static/js/main.4e52b693.js",
     "static/media/deliveryInfo.png": "/kurly_frontend_deploy/static/media/deliveryInfo.faf33b2327b3ef630758.png",
     "static/media/0a54f6a4-4f5a-4202-8f6d-045d2a1709de.jpg": "/kurly_frontend_deploy/static/media/0a54f6a4-4f5a-4202-8f6d-045d2a1709de.35960a205f77c0f9af89.jpg",
     "index.html": "/kurly_frontend_deploy/index.html",
@@ -23,10 +23,10 @@
     "static/media/icon_sub.svg": "/kurly_frontend_deploy/static/media/icon_sub.8f66024126751604f1f2.svg",
     "static/media/icon_sub_gray.svg": "/kurly_frontend_deploy/static/media/icon_sub_gray.facbc76da485fbeace9d.svg",
     "main.d90fd03c.css.map": "/kurly_frontend_deploy/static/css/main.d90fd03c.css.map",
-    "main.c31d46eb.js.map": "/kurly_frontend_deploy/static/js/main.c31d46eb.js.map"
+    "main.4e52b693.js.map": "/kurly_frontend_deploy/static/js/main.4e52b693.js.map"
   },
   "entrypoints": [
     "static/css/main.d90fd03c.css",
-    "static/js/main.c31d46eb.js"
+    "static/js/main.4e52b693.js"
   ]
 }
